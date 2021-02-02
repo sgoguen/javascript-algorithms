@@ -7,7 +7,7 @@
     "lint": "eslint ./src/**",
     "test": "jest",
     "coverage": "npm run test -- --coverage",
-    "ci": "npm run lint && npm run coverage"
+    "ci:off": "npm run lint && npm run coverage"
   },
   "repository": {
     "type": "git",
@@ -36,7 +36,7 @@
   "devDependencies": {
     "@babel/cli": "7.12.10",
     "@babel/preset-env": "7.12.11",
-    "@types/jest": "26.0.19",
+    "@types/jest": "^26.0.19",
     "eslint": "7.16.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-plugin-import": "2.22.1",
